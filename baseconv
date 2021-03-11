@@ -1,0 +1,4 @@
+#!/bin/bash
+#echo 'Type base to convert'
+echo "Hard Code version"
+echo "obase=16; 246" | bc
