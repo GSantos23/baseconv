@@ -1,4 +1,15 @@
 #!/bin/bash
-#echo 'Type base to convert'
-echo "Hard Code version"
-echo "obase=16; 246" | bc
+echo "Enter input base: "
+read inputBase
+echo "Enter Value: "
+read value
+echo "Enter output base: "
+read outputBase
+
+echo "****************************"
+
+if [[ $inputBase == 10 ]]; then
+	echo "obase=$outputBase; $value" | bc
+else
+	echo "obase=$outputBase; ibase=$inputBase;  $value" | bc
+fi
