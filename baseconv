@@ -1,9 +1,6 @@
 #!/bin/bash
-#echo "Enter input base: "
 read -p "Enter input base > " inputBase
-#echo "Enter Value: "
 read -p "Enter value > " value
-#echo "Enter output base: "
 read -p "Enter output base > " outputBase
 
 echo "****************************"
